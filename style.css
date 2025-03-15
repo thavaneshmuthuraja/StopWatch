@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/12/06/63211/time-22-920x518.jpg");
+    margin: 0;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.con {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px); /* Blur effect for glassmorphism */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.frame div {
+    margin: 0 5px;
+}
+
+.col {
+    color: #ff6f61; /* Accent color for colons */
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #ff6f61; /* Coral accent color */
+    color: white;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: #ff4a3d; /* Darker shade on hover */
+    transform: translateY(-2px);
+}
+
+button:active {
+    background: #e83a2e; /* Even darker shade on click */
+    transform: translateY(0);
+}
+
+button:focus {
+    outline: none;
+}
+.st-active,.sp-active{
+    pointer-events: none;
+    opacity: 0.5;
+
+}
