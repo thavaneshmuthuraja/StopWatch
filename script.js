@@ -34,6 +34,7 @@ rebtn.addEventListener("click",function(){
     updatedisplay();
     starbtn.classList.remove("st-active")
     spbtn.classList.remove("sp-active");
+    clearInterval(settimmer);
 
 
 })
